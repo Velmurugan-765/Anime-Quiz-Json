@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #EDF4F2;">
+    <div class="quiz-container">
+        <h1>Anime Quiz</h1>
+        <div class="timer" id="timer">Time left: 05:00</div>
+
+        <form id="quiz-form">
+            <div id="questions-container"></div>
+
+            <div class="navigation-buttons">
+                <button type="button" id="prev-btn" onclick="prevPage()">Previous</button>
+                <button type="button" id="next-btn" onclick="nextPage()">Next</button>
+                <button type="submit" id="submit-btn">Submit</button>
+            </div>
+        </form>
+
+        <div id="results" class="result-container">
+            <h2>Quiz Results</h2>
+            <div id="answers"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
