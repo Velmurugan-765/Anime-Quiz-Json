@@ -1,0 +1,119 @@
+body {
+    font-family: 'Optima', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #FCF6F5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.question-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.answer-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 5px;
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation-buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.result-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #fff;
+    display: none; 
+}
+
+.result-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.result-container .result-question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #fffdfd;
+    border-radius: 8px;
+}
+
+.result-container .result-question h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result-container .result-question p {
+    margin-bottom: 5px;
+}
+
+.result-container .correct-answer {
+    border: 2px solid green; 
+}
+
+.result-container .incorrect-answer {
+    border: 2px solid red;
+}
